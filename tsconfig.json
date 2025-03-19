@@ -3,6 +3,7 @@
     "target": "ES2020",
     "module": "commonjs",
     "outDir": "./dist",
+    "declarationDir": "./dist/types",
     "rootDir": ".",
     "declaration": true,
     "strict": true,

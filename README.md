@@ -1,6 +1,6 @@
 # DistId
 
-![npm](https://img.shields.io/npm/v/distid) ![license](https://img.shields.io/npm/l/distid) ![downloads](https://img.shields.io/npm/dt/distid)
+![npm](https://img.shields.io/npm/v/distid) ![license](https://github.com/nhanlethanh1198/distid/LICENSE.md) ![downloads](https://img.shields.io/npm/dt/distid)
 
 A lightweight, distributed ID generator designed for large-scale systems. DistId generates unique 64-bit IDs with built-in timestamp, node identifier, and counter, making it ideal for distributed environments where collision resistance and indexing performance are critical.
 
@@ -102,12 +102,12 @@ DistId is designed for high performance in distributed systems. Here's a quick b
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/nhanlethanh1198/distid).
 
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature).
-3. Commit your changes (git commit -m "Add your feature").
-4. Push to the branch (git push origin feature/your-feature).
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m "Add your feature"`).
+4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
 ## License
