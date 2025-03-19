@@ -1,6 +1,6 @@
 {
   "name": "distid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Distributed ID generator for large-scale systems",
   "main": "dist/index.js",
   "repository": {
