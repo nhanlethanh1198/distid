@@ -1,0 +1,23 @@
+{
+  "name": "distid",
+  "version": "1.0.0",
+  "description": "Distributed ID generator for large-scale systems",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "id",
+    "distributed",
+    "uuid",
+    "generator"
+  ],
+  "author": "@nhanlethanh1198",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  }
+}
