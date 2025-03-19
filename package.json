@@ -4,7 +4,9 @@
   "description": "Distributed ID generator for large-scale systems",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "id",
