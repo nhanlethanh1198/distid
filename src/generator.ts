@@ -39,7 +39,7 @@ export class DistIdGenerator {
     if (this.counter > maxCounter) {
       this.logger('Counter overflow, waiting for next millisecond');
       while (this.getTimestamp() === this.lastTimestamp) {
-        // Busy wait (có thể cải tiến bằng Promise nếu cần)
+        // Wait for the next millisecond
       }
       return this.incrementCounter(this.getTimestamp());
     }
